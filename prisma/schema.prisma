@@ -1,0 +1,219 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
+}
+
+model Post {
+  id    String @id @default(cuid())
+  title String
+  text  String
+}
+
+model User {
+  id          String  @id @default(cuid())
+  email       String? @unique
+  password    String?
+  createdAt   String?
+  isSuperUser Boolean @default(false)
+  member      Member?
+}
+
+model Member {
+  id         String           @id @default(cuid())
+  textFields Json
+  additional Json
+  facts      Json
+  phone      String           @default("")
+  image      String
+  businessId String?
+  userId     String           @unique
+  regionId   String?
+  requests   ArticleRequest[]
+  tickets    EventTicket[]
+  business   Business?        @relation(fields: [businessId], references: [id])
+  region     Region?          @relation(fields: [regionId], references: [id])
+  user       User             @relation(fields: [userId], references: [id], onDelete: Cascade)
+  services   Article[]        @relation("ArticleMentor")
+}
+
+model RegistrationRequest {
+  id           String                           @id @default(cuid())
+  name         String
+  phone        String
+  email        String
+  createdAt    DateTime                         @default(now())
+  notification RegistrationRequestNotification?
+}
+
+model Event {
+  id            String        @id @default(cuid())
+  price         Int
+  memberPrice   Int
+  isMemberEvent Boolean       @default(false)
+  date          String
+  endTime       String
+  eventGuest    Json
+  image         String
+  networkStatus NetworkStatus @default(OFFLINE)
+  places        Int
+  startTime     String
+  regionId      String?
+  textFields    Json
+  region        Region?       @relation(fields: [regionId], references: [id])
+  eventTickets  EventTicket[]
+}
+
+model EventTicket {
+  id           String                   @id @default(cuid())
+  name         String?
+  email        String?
+  phone        String?
+  verified     Boolean                  @default(false)
+  eventId      String
+  memberId     String?
+  createdAt    DateTime                 @default(now())
+  Event        Event                    @relation(fields: [eventId], references: [id], onDelete: Cascade)
+  Member       Member?                  @relation(fields: [memberId], references: [id])
+  notification EventTicketNotification?
+}
+
+model Region {
+  id         String   @id @default(cuid())
+  video      String?
+  isActive   Boolean  @default(false)
+  slug       String   @unique
+  textFields Json
+  Events     Event[]
+  images     Image[]
+  Members    Member[]
+}
+
+model Service {
+  id         String    @id @default(cuid())
+  slug       String    @unique
+  textFields Json
+  image      String
+  Articles   Article[]
+}
+
+model Business {
+  id         String   @id @default(cuid())
+  slug       String   @unique
+  textFields Json
+  member     Member[]
+}
+
+model Article {
+  id            String           @id @default(cuid())
+  textFields    Json
+  slug          String           @unique
+  serviceId     String?
+  isPaidService Boolean          @default(false)
+  image         String[]
+  Service       Service?         @relation(fields: [serviceId], references: [id], onDelete: Cascade)
+  requests      ArticleRequest[]
+  Mentors       Member[]         @relation("ArticleMentor")
+}
+
+model ArticleRequest {
+  id           String               @id @default(cuid())
+  articleId    String
+  memberId     String
+  name         String
+  phone        String
+  comment      String?
+  createdAt    DateTime             @default(now())
+  Article      Article              @relation(fields: [articleId], references: [id], onDelete: Cascade)
+  Member       Member               @relation(fields: [memberId], references: [id], onDelete: Cascade)
+  notification ServiceNotification?
+}
+
+model Image {
+  id        String  @id @default(cuid())
+  url       String
+  name      String?
+  regionId  String?
+  isBanner  Boolean @default(false)
+  bannerId  String? @unique
+  articleId String?
+  Region    Region? @relation(fields: [regionId], references: [id])
+}
+
+model Banner {
+  id         String     @id @default(cuid())
+  type       BannerType
+  link       String?
+  image      String
+  textFields Json
+  order      Int        @default(0)
+}
+
+model Notification {
+  id                                String                           @id @default(cuid())
+  status                            NotificationReadStatus           @default(UNREAD)
+  type                              NotificationType
+  createdAt                         String
+  serviceNotificationId             String?                          @unique
+  registrationRequestNotificationId String?                          @unique
+  eventTicketNotificationId         String?                          @unique
+  EventTicketNotification           EventTicketNotification?         @relation(fields: [eventTicketNotificationId], references: [id], onDelete: Cascade)
+  RegistrationRequestNotification   RegistrationRequestNotification? @relation(fields: [registrationRequestNotificationId], references: [id], onDelete: Cascade)
+  ServiceNotification               ServiceNotification?             @relation(fields: [serviceNotificationId], references: [id], onDelete: Cascade)
+}
+
+model ServiceNotification {
+  id               String         @id @default(cuid())
+  articleRequestId String         @unique
+  Notification     Notification?
+  ArticleRequest   ArticleRequest @relation(fields: [articleRequestId], references: [id], onDelete: Cascade)
+}
+
+model RegistrationRequestNotification {
+  id                    String              @id @default(cuid())
+  registrationRequestId String              @unique
+  Notification          Notification?
+  RegistrationRequest   RegistrationRequest @relation(fields: [registrationRequestId], references: [id], onDelete: Cascade)
+}
+
+model EventTicketNotification {
+  id            String        @id @default(cuid())
+  eventTicketId String        @unique
+  EventTicket   EventTicket   @relation(fields: [eventTicketId], references: [id], onDelete: Cascade)
+  Notification  Notification?
+}
+
+model Log {
+  id        String   @id @default(uuid())
+  text      String
+  json      Json?
+  createdAt DateTime @default(now())
+}
+
+enum NetworkStatus {
+  OFFLINE
+  ONLINE
+}
+
+enum BannerType {
+  MAIN
+  EVENT
+  MEMBER
+  REGION
+  SERVICE
+}
+
+enum NotificationReadStatus {
+  READ
+  UNREAD
+}
+
+enum NotificationType {
+  SERVICE
+  REQUEST
+  EVENT
+}

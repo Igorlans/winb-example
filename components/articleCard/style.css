@@ -1,0 +1,10 @@
+.active-article {
+    background: #C9547E;
+    color: #fff;
+    transition: ease-out 0.1s;
+}
+
+.active-article svg path {
+  fill: #fff;
+  transition: ease-out 0.1s;
+}

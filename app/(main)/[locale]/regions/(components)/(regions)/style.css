@@ -1,0 +1,8 @@
+.active-article {
+    background: #C9547E;
+    color: #fff;
+}
+
+.active-article svg path {
+  fill: #fff;
+}

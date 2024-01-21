@@ -1,0 +1,17 @@
+.arrow-button svg {
+    transform: translateX(0);
+    transition: transform 0.35s ease-out;
+}
+
+.arrow-button:hover svg {
+    transform: translateX(-5px);
+}
+
+.prev-arrow-button svg {
+    transform: translateX(0);
+    transition: transform 0.35s ease-out;
+}
+
+.prev-arrow-button:hover svg {
+    transform: translateX(5px);
+}

@@ -1,0 +1,12 @@
+.responsive-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 1.5rem;
+}
+
+@media screen and (max-width: 768px) {
+    .responsive-grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 0.8rem;
+    }
+}

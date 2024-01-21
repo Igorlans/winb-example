@@ -1,0 +1,202 @@
+@-webkit-keyframes float {
+	 from {
+		 -webkit-transform: rotate(0deg) translate3d(3px, 0, 0) rotate(0deg);
+	}
+	 to {
+		 -webkit-transform: rotate(360deg) translate3d(3px, 0, 0) rotate(-360deg);
+	}
+}
+
+@keyframes float {
+	 from {
+		 transform: rotate(0deg) translate3d(3px, 0, 0) rotate(0deg);
+	}
+	 to {
+		 transform: rotate(360deg) translate3d(3px, 0, 0) rotate(-360deg);
+	}
+}
+
+.circles {
+    position: relative;
+    width: 100%;
+    height: 353px;
+    height: clamp(150px, 35vw, 353px);
+    overflow-y: visible;
+    color: lightblue;
+}
+
+.circles > .circle {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    shape-outside: circle();
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: lightblue;
+    clip-path: circle();
+    background: lightblue;
+    transition: all 0.5s ease-in-out;
+}
+
+ul.circles > li:nth-child(odd) {
+	 -webkit-animation: float 16.8s infinite linear;
+	 animation: float 16.8s infinite linear;
+}
+
+ul.circles > li:nth-child(even) {
+	 -webkit-animation: float 4.8s infinite linear;
+	 animation: float 4.8s infinite linear;
+}
+
+/* .circles > .circle:hover {
+    -webkit-animation: none;
+    animation: none;
+    transform: scale(1.5);
+    transition: new 0.5s ease-in-out;
+} */
+
+/*Circle sizes*/
+#circle-120 {
+    /* width: 120px; */
+    width: clamp(56px, 10vw, 120px);
+    height: clamp(56px, 10vw, 120px);
+    /* height: 120px; */
+}
+#circle-88 {
+    /* width: 88px; */
+    width: clamp(36px, 8vw, 88px);
+    height: clamp(36px, 8vw, 88px);
+    /* height: 88px; */
+}
+#circle-64 {
+    /* width: 64px; */
+    width: clamp(20px, 4vw, 64px);
+    height: clamp(20px, 4vw, 64px);
+    /* height: 64px; */
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.circle:nth-child(1) {
+    top: 0;
+    /* left: 111px; */
+    left: clamp(7px, 11vw, 111px);
+}
+
+.circle:nth-child(2) {
+    /* top: 145px; */
+    top: clamp(6px, 15vw, 145px);
+    left: 0;
+}
+
+.circle:nth-child(3) {
+    top: 0;
+    /* left: 323px; */
+    left: clamp(18px, 32vw, 323px);
+}
+
+.circle:nth-child(4) {
+    /* top: 108px; */
+    top: clamp(68px, 11vw, 108px);
+    /* left: 240px; */
+    left: clamp(12px, 24vw, 240px);
+}
+
+.circle:nth-child(5) {
+    top: clamp(103px, 19vw, 193px);
+    left: clamp(10px, 16vw, 163px);
+}
+
+.circle:nth-child(6) {
+    /* top: 206px; */
+    top: clamp(130px, 21vw, 206px);
+    /* left: 339px; */
+    left: clamp(21px, 34vw, 339px);
+}
+
+.circle:nth-child(7) {
+    /* top: 72px; */
+    top: clamp(46px, 7vw, 72px);
+    /* left: 415px; */
+    left: clamp(26px, 42vw, 415px);
+}
+
+.circle:nth-child(8) {
+    top: 0;
+    /* left: 559px; */
+    left: clamp(35px, 57vw, 559px);
+}
+
+.circle:nth-child(9) {
+    /* top: 112px; */
+    top: clamp(71px, 11vw, 112px);
+    /* left: 611px; */
+    left: clamp(38px, 62vw, 611px);
+}
+
+.circle:nth-child(10) {
+    top: clamp(103px, 16vw, 183px);
+    /* left: 527px; */
+    left: clamp(33px, 53vw, 527px);
+}
+
+.circle:nth-child(11) {
+    /* bottom: 74px; */
+    top: clamp(103px, 16vw, 163px);
+    /* left: 692px; */
+    left: clamp(43px, 70vw, 692px);
+}
+
+.circle:nth-child(12) {
+    top: 0;
+    /* left: 766px; */
+    left: clamp(48px, 78vw, 766px);
+}
+
+.circle:nth-child(13) {
+    /* top: 123px; */
+    top: clamp(78px, 12vw, 123px);
+    /* left: 856px; */
+    left: clamp(54px, 87vw, 856px);
+}
+
+.circle:nth-child(14) {
+    top: 0px;
+    /* left: 900px; */
+    left: clamp(57px, 91vw, 900px);
+}
+
+.circle:nth-child(15) {
+    /* bottom: 14px; */
+    top: clamp(103px, 25vw, 253px);
+    /* left: 830px; */
+    left: clamp(52px, 82vw, 820px);
+    /* right: 0px; */
+}
+
+.circle:nth-child(16) {
+    /* bottom: 0; */
+    top: clamp(103px, 26vw, 243px);
+    left: clamp(58px, 94vw, 930px);
+}
+
+@media screen and (max-width: 1041px) {
+    .circle:nth-child(14),
+    .circle:nth-child(15),
+    .circle:nth-child(16) {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 621px) {
+    .circle:nth-child(13) {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 569px) {
+    /* .circle:nth-child(11),
+    .circle:nth-child(12) {
+        display: none;
+    } */
+}

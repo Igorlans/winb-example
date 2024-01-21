@@ -1,0 +1,9 @@
+.joinItem:hover span {
+    color: rgba(193, 60, 104, 0.733);
+}
+
+.joinItem span {
+    color: rgba(193, 60, 105, 0.10);
+    font-weight: 700;
+    transition: ease-out 0.3s;
+}

@@ -1,0 +1,107 @@
+[
+  {
+    "title": "Сільське господарство, фермерство",
+    "title_en": "Agriculture, farming",
+    "title_pl": "Rolnictwo, hodowla"
+  },
+  {
+    "title": "Переробка агропродукції",
+    "title_en": "Processing of agricultural products",
+    "title_pl": "Przetwarzanie produktów rolnych"
+  },
+  {
+    "title": "Виробництво",
+    "title_en": "Production",
+    "title_pl": "Produkcja"
+  },
+  {
+    "title": "Крафтове виробництво",
+    "title_en": "Craft production",
+    "title_pl": "Produkcja rzemieślnicza"
+  },
+  {
+    "title": "Рітейл",
+    "title_en": "Retail",
+    "title_pl": "Handel detaliczny"
+  },
+  {
+    "title": "Медичні центри",
+    "title_en": "Medical centers",
+    "title_pl": "Centra medyczne"
+  },
+  {
+    "title": "Косметологія",
+    "title_en": "Cosmetology",
+    "title_pl": "Kosmetologia"
+  },
+  {
+    "title": "Салони краси",
+    "title_en": "Beauty salons",
+    "title_pl": "Salony piękności"
+  },
+  {
+    "title": "Юридичні послуги",
+    "title_en": "Legal services",
+    "title_pl": "Usługi prawne"
+  },
+  {
+    "title": "Фінансові, бухгалтерські, податкові послуги",
+    "title_en": "Financial, accounting, tax services",
+    "title_pl": "Usługi finansowe, księgowe, podatkowe"
+  },
+  {
+    "title": "Освіта",
+    "title_en": "Education",
+    "title_pl": "Edukacja"
+  },
+  {
+    "title": "Маркетингові компанії",
+    "title_en": "Marketing companies ",
+    "title_pl": "Firmy marketingowe "
+  },
+  {
+    "title": "Психологія, коучинг",
+    "title_en": "Psychology, coaching",
+    "title_pl": "Psychologia, coaching"
+  },
+  {
+    "title": "Бізнес-тренери, консалтинг",
+    "title_en": "Business trainers, consulting",
+    "title_pl": "Trenerzy biznesu, doradztwo"
+  },
+  {
+    "title": "Туристичні постуги",
+    "title_en": "Tourist postures",
+    "title_pl": "Postawy turystyczne"
+  },
+  {
+    "title": "ІТ",
+    "title_en": "IT",
+    "title_pl": "IT"
+  },
+  {
+    "title": "HoReCa",
+    "title_en": "HoReCa",
+    "title_pl": "HoReCa"
+  },
+  {
+    "title": "Будівництво",
+    "title_en": "Construction",
+    "title_pl": "Budownictwo"
+  },
+  {
+    "title": "Агенства нерухомості, архітектура",
+    "title_en": "Real estate agencies, architecture",
+    "title_pl": "Agencje nieruchomości, architektura"
+  },
+  {
+    "title": "Спорт",
+    "title_en": "Sports",
+    "title_pl": "Sport"
+  },
+  {
+    "title": "Стиль та мистецтво",
+    "title_en": "Style and art",
+    "title_pl": "Styl i sztuka"
+  }
+]

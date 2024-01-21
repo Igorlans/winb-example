@@ -1,0 +1,236 @@
+{
+  "Home": {
+    "home": "Strona główna",
+    "services": "Usługi biznesowe",
+    "events": "Wydarzenia",
+    "regions": "Regiony",
+    "about": "O nas",
+
+    "advantages": "Nasze korzyści",
+    "advantage1_title": "Silne środowisko",
+    "advantage1_desc": "Właściciele firm z ponad 25 różnych branż. Wsparcie i motywacja do komunikacji środowiskowej na równych zasadach.",
+    "advantage2_title": "Szkolenia i doradztwo",
+    "advantage2_desc": "Kursy, webinaria, szkolenia offline i online dla właścicieli firm i zespołów. Szybka pomoc konsultingowa dla biznesu.",
+    "advantage3_title": "Wsparcie dotacyjne dla biznesu",
+    "advantage3_desc": "Pomagamy znaleźć, napisać i uzyskać dotacje",
+    "advantage4_title": "Nieformalne spotkania",
+    "advantage4_desc": "Aby uzupełnić i przywrócić kobietom energię i siłę",
+
+    "mission": "NASZA MISJA: Wspólne wzrastanie dla odbudowy Ukrainy",
+    "vision": "NASZA WIZJA: Silna przedsiębiorczość kobiet i przywrócił Ukrainę",
+
+    "why_join_title": "Dlaczego warto dołączyć do Platformy?",
+    "you_will_get": "Dostajesz:",
+    "why_join_desc1": "💎 Potężny networking wśród ponad 350 kobiet biznesu z ponad 10 regionów Ukrainy",
+    "why_join_desc2": "💎 Zamknięte spotkania i szkolenia z wymianą doświadczeń",
+    "why_join_desc3": "💎 Wsparcie działu grantowego",
+
+    "card1_title": "Wydarzenia",
+    "card1_desc": "Przeglądaj aktualne informacje o wydarzeniach na naszej Platformie",
+
+    "card2_title": "Usługi biznesowe",
+    "card2_desc": "Usługi i artykuły w różnych kategoriach dla rozwoju Twojego biznesu",
+
+    "card3_title": "Regiony",
+    "card3_desc": "Zobacz aktualne biura regionalne naszej Platformy",
+
+    "stat_regions": "Regiony",
+    "stat_years": "Lata",
+    "stat_members": "Członkowie",
+    "stat_events": "Zorganizowane wydarzenia",
+
+    "management": "Zarządzanie"
+  },
+
+  "Event": {
+    "title": "Wydarzenia",
+    "desc": "Obecne wydarzenia",
+    "events": "Obecne wydarzenia",
+    "archive": "Archiwum wydarzeń",
+
+    "date": "Data",
+    "place": "Lokalizacja",
+    "region": "Region",
+    "available": "Są jeszcze",
+    "places": "miejsc",
+    "invite": "Zapraszamy",
+    "expert": "Ekspert wydarzenia",
+    "register": "Zarejestruj się na wydarzenie",
+    "customer": "Gość",
+    "member": "Członek klubu"
+  },
+
+  "Service": {
+    "title": "Usługi biznesowe",
+    "desc": "Konsultacje",
+    "category": "Kategorie",
+
+    "consultation": "Do konsultacji",
+    "education": "Do Edukacji",
+    "department": "Do Departamentu Gwarancji",
+
+    "mentor": "Wybierz mentora"
+  },
+
+  "Region": {
+    "title": "Regiony",
+    "subtitle": "Lista wszystkich regionów",
+
+    "to_regions": "Do regionów",
+    "events": "Wydarzenia w regionie",
+    "team": "Nasz zespół"
+  },
+
+  "Member": {
+    "title": "Członkowie",
+    "desc": "",
+    "about": "Krótko o mnie",
+    "experience": "Doświadczenie",
+    "services": "Usługi"
+  },
+
+  "About": {
+    "title": "O nas",
+    "desc": "Znajdź najnowsze informacje o naszej organizacji",
+    "about": "O kobietach w biznesie",
+    "about_desc": "Ukraińska platforma Women in Business została stworzona, aby zjednoczyć kobiety-przedsiębiorców, kobiety-liderki, przedstawicielki kobiecych stowarzyszeń biznesowych i stać się wsparciem i siłą napędową dla rozwoju i promocji przedsiębiorczości kobiet na Ukrainie. Women in Business to potężna platforma dla nowych znajomości, rozwoju i szkoleń, networkingu, wzajemnego wsparcia, wymiany doświadczeń, generowania nowych pomysłów, realizacji wspólnych projektów i mentoringu.",
+
+    "get": "",
+    "get_desc": "Co otrzymują członkowie platformy",
+    "get1_title": "Wydarzenia biznesowe",
+    "get1_desc": "Fora biznesowe, szkolenia, seminaria, webinaria z udziałem najlepszych mówców z Ukrainy i poziomu międzynarodowego",
+    "get2_title": "Prywatny czat",
+    "get2_desc": "Ogólny czat do aktywnej komunikacji. Priorytetowy dostęp do informacji od platformy i partnerów (wydarzenia, wiadomości, możliwości).",
+    "get3_title": "Rozwój biznesu",
+    "get3_desc": "Regularne sesje burzy mózgów na temat pomysłów biznesowych, studia przypadków",
+    "get4_title": "Konsultacje",
+    "get4_desc": "Krótkie wąskoprofilowe konsultacje ekspertów za darmo. konsultacje i wsparcie mentorów",
+    "get5_title": "Rozwój biznesu",
+    "get5_desc": "Za udział w wydarzeniach Platformy podróże i wizyty w przedsiębiorstwach wspólne wyjazdy na Ukrainie i za granicą",
+    "get6_title": "Współpraca międzynarodowa",
+    "get6_desc": "Platforma współpracuje z międzynarodowymi projektami mającymi na celu rozwój i wsparcie MŚP na Ukrainie",
+
+    "plan": "Plan strategiczny 2024-2025",
+    "team": "Nasz zespół",
+
+    "join": "Dołącz do nas w mediach społecznościowych!",
+    "join_desc1": "Wybierz usługę, której potrzebujesz, aby się rozwijać",
+    "join_desc2": "Twoja firma już dziś!",
+
+    "slider": "",
+    "slider_desc": "Zrzeszamy kobiety-przedsiębiorców, przedstawicielki kobiecych stowarzyszeń biznesowych i mentorów w celu rozwoju i szkoleń, generowania nowych pomysłów i realizacji wspólnych projektów.",
+
+    "reviews": "Recenzje",
+
+    "review1_name": "Zoriana Wojtów",
+    "review1_descr": "Platforma przedstawiła mnie niezwykle silnym i utalentowanym kobietom, które rozwijają się pomimo niekorzystnych warunków. Inspirują mnie do niepoddawania się, kontynuowania pracy w swoim kraju. To miejsce, gdzie można znaleźć nowe koleżanki, klientki i partnerki biznesowe. Realizuj swoje pomysły i zyskaj mnóstwo wsparcia.",
+
+    "review2_name": "Roksolana Ołehiwna",
+    "review2_descr": "Dołączyłam do platformy Women in Business 2 lata temu jako ambasadorka, mając wtedy mały gabinet masażu i dwóch pracowników. Już po 2 miesiącach od dołączenia dano mi możliwość wystąpienia jako prelegentki na konferencji. To był dla mnie ogromny wyzwanie - wystąpić przed setką sukcesywnych kobiet! Ale to był początek mojego sukcesu i rozwoju na platformie. W ciągu tych dwóch lat potroiłam swój biznes, zwiększyłam zespół i powierzchnię, zostałam sędzią międzynarodowego turnieju, trenerką marki i nauczycielką ukraińskiej firmy kosmetycznej, a także otworzyłam własne centrum edukacyjne z wystawą sprzętu do masażu.",
+
+    "review3_name": "Mariana",
+    "review3_descr": "Marianka, mała dziewczynka, która mieszkała na planecie Teatr, chciała otworzyć dla siebie nowy świat. Zobaczyła, jak daleko błyszczy piękny diament, gdzie było jeszcze więcej pięknych diamentów. I poczuła, że może stać się jednym z tych diamentów... i stała się nim - Mentorem na Ukraińskiej Platformie Women in Business. Nauczono mnie, prowadzono i skłoniono do rozwoju. Wsparcie i przyjazna atmosfera pobudzały do bycia Najlepszą wśród Najlepszych. Od Dziewczynki do Mentora, od aktorki do Trenerki Rozwoju Transformacyjnego. Dziękuję Nadia Lysetskyi, Ola Dobrovolska - które wierzyły. I każdej osobie, którą znam i jeszcze nie znam. Jesteśmy Prawdziwie Piękne i Mądre. Jesteśmy Ukraińskimi Kosaczkami!",
+
+    "review4_name": "Svitlana Terenchuk",
+    "review4_descr": "Przyjęłam się na platformie Women in Business, oczekując nowych znajomości, poszerzenia geografii mojego biznesu, zdobycia nowej wiedzy. Ale zupełnie się nie spodziewałam znaleźć takiej inspiracji i całkowicie odmienić wyobrażenie o partnerstwie kobiecym! To społeczność, która wzmacnia, mobilizuje, w której odkrywasz swój potencjał i po prostu świetnie się bawisz. Bo bizneswoman to nie tylko biznes, to także WOMAN))) I potrzebujemy piękna, miłości i troski. Tutaj to wszystko jest!",
+
+    "review5_name": "Tetiana Kotukova",
+    "review5_descr": "Członkinią platformy Women in Business zostałam w lipcu 2023 roku. To był ważny i istotny krok zarówno w moim biznesie, jak i życiu osobistym. Platforma to jak druga rodzina, mówię to bez przesady. Platforma to wsparcie, to uwaga dla opinii każdej członkini, to 100% pozytywów. Ale oprócz pozytywnych emocji platforma to także unikalna możliwość osobistego rozwoju, jakościowe warsztaty, warsztaty, szkolenia, festiwale, różnorodne nauki, networking. Platforma daje możliwość zabłysnąć każdej osobie, która chce się rozwijać i iść naprzód. Również bardzo ważne i cenne jest to, że platforma ma jasny cel, jakość zarządzania i organizację procesu pracy. Od teraz planuję swoje życie tylko razem z Ukraińską platformą Women in Business!",
+
+    "review6_name": "Aliona",
+    "review6_descr": "Ukraińska platforma Women in Business to inspirująca i potężna społeczność, która obdarowała mnie wieloma nowymi znajomościami i rozwijającymi rozmowami. Każda członkini i mentorka platformy jest cenna ze względu na swoje doświadczenie, przykład nieugiętości, co bardzo wspiera i inspiruje. Dziś, w warunkach wojny, jest to szczególnie ważne - mieć grono myślicieli, którzy dają poczucie skrzydeł i oparcia. Dziękuję Nadziei Lysétskiej, która połączyła i nadal przyciąga do tego grona najlepsze kobiety Ukrainy. Na platformie zawsze można otrzymać wsparcie i przemyślenie swojej działalności, poszerzyć horyzonty i razem zbliżać się do Zwycięstwa."
+  },
+
+  "footer": {
+    "desc": "This website was developed with the support of the Center for International Private Enterprise (CIPE) and funding from the U.S. Secretary of State's Office of Global Women's Issues (S/GWI).",
+    "pages": "Strony",
+    "contacts": "Kontakty",
+    "addition": "Dodatek",
+    "call": "Call Center",
+    "fax": "Faks",
+    "address": "Ukraina, 21000, Winnica, ul. Kijowska, 16-A, biuro. 602 (powierzchnia biurowa Tetrisa)",
+    "work_time": "Poniedziałek - niedziela: 9:00 - 21:00"
+  },
+  "pages": {
+    "home": "Strona główna",
+    "services": "Usługi biznesowe",
+    "events": "Wydarzenia",
+    "regions": "Regiony",
+    "members": "Członkowie",
+    "about": "O nas",
+    "privacy": "Prywatność",
+    "sign_in": "zalogować się",
+    "sign_up": "zapisać się"
+  },
+
+  "buttons": {
+    "apply": "Zastosuj",
+    "addition": "Więcej",
+    "read": "Czytaj",
+    "read_more": "Czytaj więcej",
+    "view": "Widok",
+    "lang": "Język",
+    "signIn": "Zaloguj się",
+    "signUp": "Rejestracja",
+    "enter": "Zaloguj się,",
+    "register": "Zarejestruj się",
+    "event_apply": "Zapisz się",
+    "already_applied": "Jesteś już zapisany"
+  },
+
+  "registerModal": {
+    "title": "Złóż wniosek o członkostwo",
+    "desc": "Przed przyjęciem cię do klubu, przetwarzamy i zatwierdzamy twój wniosek",
+    "have_account": "Masz już konto?"
+  },
+  "loginModal": {
+    "title": "Zaloguj się do konta",
+    "desc": "Otrzymasz dostęp do dodatkowych funkcji i zniżek za uczestnictwo w wydarzeniach"
+  },
+  "eventModal": {
+    "desc": "Rejestracja zdarzenia"
+  },
+  "serviceModal": {
+    "title": "Rejestracja rekordów",
+    "desc": "Umówienie się na spotkanie z mentorem"
+  },
+
+  "form": {
+    "name": "Imię i nazwisko",
+    "phone": "Numer telefonu",
+    "email": "Email",
+    "comment": "Komentarz",
+    "password": "Hasło",
+    "search": "Wyszukaj"
+  },
+  "validation": {
+    "field": "Pole to jest wymagane",
+    "phone": "Wprowadź prawidłowy numer",
+    "email": "Wprowadź prawidłowy adres e-mail",
+    "password": "Minimalna liczba znaków - 8"
+  },
+  "toast": {
+    "error": "Błąd",
+    "apply_sending": "Złożenie wniosku",
+    "apply_sent": "wniosek wysłany",
+    "event_apply_msg": "Zostaniesz zapisany na wydarzenie po dokonaniu płatności",
+    "enroll_sending": "Tworzenie rekordu",
+    "enrol_sent": "Rekord jest kompletny",
+    "enroll_error": "Błąd podczas tworzenia rekordu",
+    "login": "Logowanie..,",
+    "login_success": "Logowanie powiodło się"
+  },
+  "filters": {
+    "date": "Wybierz dwie daty",
+    "range_all_time": "Dla całego czasu",
+    "city": "Miasto",
+    "city_all": "Wszystkie",
+    "status": "Poziom członkostwa",
+    "business": "Business type",
+    "any": "Dowolny",
+    "sort_date": "Sortuj według daty",
+    "sort_date_title": "Pierwszy",
+    "sort_nearest": "Najbliższe",
+    "sort_distant": "Najdalej"
+  }
+}
